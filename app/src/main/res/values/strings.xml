@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">assignment2</string>
+    <string-array name="spinner_items">
+            <item>Hip-Hop</item>
+            <item>Canadian</item>
+            <item>Feeling Blue</item>
+    </string-array>
+</resources>

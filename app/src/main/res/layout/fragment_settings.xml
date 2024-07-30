@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/settingsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:id="@+id/settingsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter setting"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/settingsTextView"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/settingsEditText"
+        android:layout_marginTop="16dp" />
+
+    <Switch
+        android:id="@+id/settingsSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable feature"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/settingsButton"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
